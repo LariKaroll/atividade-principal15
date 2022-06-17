@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Fascine;
+    src: url(../font/Fascinate/Fascinate-Regular.ttf);
+}
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fascine;
+}
+h1{
+    text-align: center;
+    color: lightgoldenrodyellow;
+    margin-top: 10px;
+}
+body{
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+}
+.menu{
+    text-align: center;
+    margin-top: 20px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.menu ul li a{
+    color: lightgray;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.1s;
+}
+
+.menu ul li a:hover{
+    color:whitesmoke;
+    background: rgb(95, 97, 110);
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: -25px 25px 100px whitesmoke;
+}
+.tx{
+    display: flex;
+    margin-top: 50px;
+}
+.text{
+    text-align: justify;
+    width: 50%;
+    color: gray;
+    padding: 5px;
+}
+
+.text2{
+    text-align: justify;
+    width: 50%;
+    color: gray;
+    padding: 5px;
+}
+
+
+.text img{
+    width: 100%;
+    padding-top: 50px;
+}
